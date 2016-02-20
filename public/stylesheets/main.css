@@ -26,6 +26,27 @@ body {
 	margin-top: 10vh;
 }
 
+.genre_holder {
+	background-color: red;
+	list-style-type: disc;
+	columns: 2;
+	-webkit-columns: 2;
+	-moz-columns: 2;
+	list-style-position: inside;
+}
+
+.genre {
+	background-color: blue;
+	display: block;
+	text-align: center;
+	width: 10vh;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40vh;
+	height: 40vh;
+	margin-bottom: 5vh;
+}
+
 .slide {
   position: relative;
   padding: 25vh 10%;
@@ -43,7 +64,6 @@ body {
 .navbar-toggle {
   background-color: black;
 }
-
 
 .navbar-inverse .navbar-brand {
   margin-left: 20px;
