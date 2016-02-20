@@ -58,8 +58,15 @@ body {
 	margin-bottom: 7vh;
 	border-radius: 100%;
 	line-height: 20em;
-	white-space: nowrap;
+	color: white;
 }
+
+/*.rap {
+	background: url('http://cdn.pigeonsandplanes.com/wp-content/uploads/2015/06/lil-wayne-press-pic.jpg');
+	background-position: -100px 0px;
+	background-size: 120%;
+}*/
+
 
 .slide {
   position: relative;
@@ -128,3 +135,4 @@ body {
 .navbar-inverse .navbar-right {
   margin-right: 20px;
 }
+
