@@ -1,0 +1,96 @@
+/*----------------------------------------------*/
+              /*slide rolling effect*/
+/*----------------------------------------------*/
+
+body {
+  background: url('https://images.unsplash.com/uploads/1411606977489000af84a/3ae98ccd?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=2d678c74c8ca3916fa0d6eedce2f1e14') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#home_header {
+	background-color: purple;
+	opacity: 0.5;
+	height: 40vh;
+	margin-top: 12vh;
+}
+
+#header_intro_text {
+	color: white;
+	/*opacity: 0.8;*/
+	text-align: center;
+	font-family: Dosis;
+	font-size: 7vh;
+	margin-top: 10vh;
+}
+
+.slide {
+  position: relative;
+  padding: 25vh 10%;
+  min-height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
+	transform-style: inherit;
+}
+
+/*----------------------------------------------*/
+                    /*navbar*/
+/*----------------------------------------------*/
+
+.navbar-toggle {
+  background-color: black;
+}
+
+
+.navbar-inverse .navbar-brand {
+  margin-left: 20px;
+  font-size: 30px;
+  background-color: transparent;
+  border: transparent;
+  font-family: Dosis;
+}
+
+#home_link {
+  margin-left: 20px;
+  font-size: 30px;
+  color: purple;
+  background-color: transparent;
+  border: transparent;
+  font-family: Dosis;
+  outline: none;
+}
+
+#home_link:hover {
+  color: white;
+  outline: none;
+}
+
+.navbar-inverse .navbar-nav > button {
+  background-color: transparent;
+  border: transparent;
+  margin-top: 1%;
+  color: white;
+  font-family: Lobster;
+  font-size: 22px;
+  outline: none;
+}
+
+.navbar-inverse .navbar-nav > button:hover {
+  color: rgba(84,84,84,1);
+  outline: none;
+}
+
+.navbar-inverse .navbar-brand {
+  color: black;
+}
+
+#home_link:hover {
+  color: rgba(84,84,84,1);
+}
+
+.navbar-inverse .navbar-right {
+  margin-right: 20px;
+}
