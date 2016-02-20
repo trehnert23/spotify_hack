@@ -13,7 +13,7 @@ body {
 #home_header {
 	background-color: purple;
 	opacity: 0.5;
-	height: 40vh;
+	height: 30vh;
 	margin-top: 12vh;
 }
 
@@ -26,8 +26,20 @@ body {
 	margin-top: 10vh;
 }
 
+.arrow_div {
+	background-color: purple;
+	opacity: 0.5;
+	height: 15vh;
+	margin-bottom: 20vh;
+}
+
+.arrow_image {
+	width: 10vh;
+	margin-left: 46%;
+}
+
 .genre_holder {
-	background-color: red;
+	/*background-color: red;*/
 	list-style-type: disc;
 	columns: 2;
 	-webkit-columns: 2;
@@ -39,12 +51,14 @@ body {
 	background-color: blue;
 	display: block;
 	text-align: center;
-	width: 10vh;
 	margin-left: auto;
 	margin-right: auto;
-	width: 40vh;
-	height: 40vh;
-	margin-bottom: 5vh;
+	width: 20em;
+	height: 20em;
+	margin-bottom: 7vh;
+	border-radius: 100%;
+	line-height: 20em;
+	white-space: nowrap;
 }
 
 .slide {
